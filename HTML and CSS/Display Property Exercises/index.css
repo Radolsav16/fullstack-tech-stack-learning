@@ -1,0 +1,124 @@
+ .name-input{
+    display: block;
+}
+
+.email-input{
+    display: block;
+}
+
+.servey-button {
+    display: inline-block;
+}
+
+.servey-question-text{
+    display: inline-block;
+} 
+
+.google-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8px;
+    width: 200px;
+}
+
+.google-input{
+    display: block;
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    border: solid 1px rgb(189, 188, 188);
+    padding: 5px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+} 
+
+ .form-input-name{
+    width: 60px;
+    height: 25px;
+    padding-left:8px;
+    font-size: 10px;
+    padding-right: 12px;
+    border: solid 1px rgb(193, 189, 189);
+    border-radius: 5px;
+}
+
+.email-input{
+    display: block;
+    height: 25px;
+    margin-top: 5px;
+    padding-left:8px;
+    width: 155px;
+    font-size: 10px;
+    border: solid 1px rgb(193, 189, 189);
+    border-radius: 5px;
+    
+
+}
+
+.sign-up-button{
+    display: block;
+    margin-top: 5px;
+    width: 167px;
+    height: 30px;
+    padding-left:8px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(56, 56, 255);
+    color: white;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+} 
+
+.request-text{
+    font-size: 30px;
+    color: black;
+}
+
+.location-input{
+   display: block;
+    height: 35px;
+    width: 240px;
+    font-size: 15px;
+    padding-left: 8px;
+    background-color: rgb(241, 236, 236);
+    border: none;
+}
+
+
+.destination-input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    height: 35px;
+    width: 240px;
+    font-size: 15px;
+    padding-left: 8px;
+    background-color: rgb(241, 236, 236);
+    border: none;
+}
+
+.request-now-button{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 115px;
+    height: 40px;
+    border: none;
+    margin-right: 5px;
+}
+
+.shedule-button{
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  background-color: rgb(241, 236, 236);
+  color: black;
+  border: none;
+
+}
+
