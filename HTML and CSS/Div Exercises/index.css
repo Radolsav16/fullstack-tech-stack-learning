@@ -1,0 +1,115 @@
+.square{
+  width: 150px;         
+  height: 150px;
+  background-color: red; 
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border:none;
+    border-radius: 100px;
+}
+
+
+.queston-wrapper{
+    border: solid 1px gray;
+    padding-left: 12px;
+    padding-bottom: 10px;
+    width: 220px;
+}
+
+
+.youtube-music-wrapper{
+ background-color: rgb(50, 49, 49);
+ width: 330px;
+ border: none;
+ height: 100px;
+ padding-top: 3px;
+}
+
+.install-text{
+ font-weight: bold;
+ color: white;
+ font-size: 20px;
+ margin-top: 10px;
+ margin-left: 5px;
+}
+
+
+.add-text{
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.tweet-wrapper{
+    width: 350px;
+    border: solid 1px rgb(201, 198, 198);
+    padding: 10px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.profile-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+     vertical-align: middle;
+}
+
+.tweet-text{
+    display: inline-block;
+    color: gray;
+    margin-left: 4px;
+    font-size: 17px;
+     vertical-align: middle;
+}
+
+.tweet-button{
+    display: inline-block;  
+    margin-left: 40px; 
+    background-color: rgb(115, 115, 236);
+    color: white;
+    border: none;
+    font-weight: bold;
+    height: 28px;
+    width: 70px;
+    border-radius: 10px;
+     vertical-align: middle;
+}
+
+.cat-container{
+    border: solid 1px gray;
+    width: 150px;
+    
+}
+
+.cat-image{
+    width: 150px;
+    height: 150px;
+}
+
+.cat-name {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+.cat-friends{
+    color: gray;
+    margin-left: 3px;
+    margin-top: -8px;
+}
+
+.add-friend-button{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
