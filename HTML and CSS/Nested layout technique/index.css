@@ -1,0 +1,60 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cat-container{
+    border: solid 1px rgb(209, 199, 199);
+    width: 150px;
+    box-shadow: 0,1px,6px, rgb(177, 175, 175);
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.cat-image{
+    width: 150px;
+    height: 150px;
+}
+
+.cat-name {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+.cat-friends{
+    color: gray;
+    margin-left: 3px;
+    font-weight: 500;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+
+.friends-info{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cat-profile-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.cat-profile-container{
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.add-friend-button{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
