@@ -1,0 +1,79 @@
+.first-grid{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.first-div{
+    background-color: aqua;
+}
+
+.second-div{
+    background-color: pink;
+}
+
+.second-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+.third-grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.cat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+}
+
+.cat-container{
+    border: solid 1px rgb(209, 199, 199);
+    box-shadow: 0,1px,6px, rgb(177, 175, 175);
+}
+
+.cat-image{
+    width: 100%;
+    height: 150px;
+}
+
+.cat-name {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+.cat-friends{
+    color: gray;
+    margin-left: 3px;
+    font-weight: 500;
+}
+
+
+.cat-profile-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.cat-profile-container{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    column-gap: 5px;
+    margin-left: 3px;
+}
+
+.add-friend-button{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
