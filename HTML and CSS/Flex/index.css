@@ -1,0 +1,157 @@
+.container{
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    padding: 8px;
+}
+
+button{
+    background-color: blue;
+    width:38px;
+    height: 27px;
+    border-radius: 14px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    font-size: 16px;
+    font-weight:600;
+}
+
+.box-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-item{
+    width: 50px;
+    background-color: pink;
+}
+
+.second-item{
+    width: 100%;
+    background-color: blue;
+}
+
+.thirth-item{
+  /* width: 75px; */
+  background-color: pink;
+}
+
+.fourth-item{
+    background-color: blue;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: blueviolet;
+    height: 40px;
+    padding: 8px;
+}
+
+p{
+    width: 150px;
+    font-weight: bold;
+    color: white;
+}
+
+input{
+    width: 100%;
+    color: gray;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 10px;
+
+}
+
+button{
+    width: 150px;
+    background-color: blueviolet;
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 10px;
+
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid gray;
+}
+
+.profile-row{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+
+.handle {
+  color: rgb(150, 150, 150);
+  margin-bottom: 5px;
+}
+
+.category {
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+}
+
+
+.profile-image{
+    display: flex;
+    width: 50px;
+    margin-right: 8px;
+    margin-left: 5px;
+}
+
+.cat-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.profile-info{
+    width: 200px;
+}
+
+button{
+    background-color: rgb(89, 89, 244);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 30px;
+    width: 70px;
+    align-items: flex-end;
+    margin-left: 150px;
+}
+
+
+.profile-name{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+p{
+    font-size: 15px;
+}
