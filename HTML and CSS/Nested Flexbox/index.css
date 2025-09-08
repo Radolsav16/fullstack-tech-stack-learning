@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 60px;
+    display: flex;
+} 
+
+ .left-section{
+    background-color: pink;
+    width: 100px;
+} 
+
+.right-section{
+    background-color: aqua;
+    width: 200px;
+} 
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 40px;
+    margin-left: 25px;
+} 
+
+ p{
+    background-color: black;
+    margin: 0;
+} 
+
+.container{
+    border:1px solid rgb(197, 193, 193);
+    box-shadow:0.5px 0.5px 2px rgb(159, 157, 157);
+    border-radius: 5px;
+    width: 350px;
+}
+
+.all-inboxes{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+img{
+    height: 45px;
+    width: 46px;
+    border-radius: 27px;
+    margin-left: 10px;
+    margin-top: 8px ;
+}
+
+.info-container{
+    display: inline-block;
+    margin-bottom: 1px;
+}
+
+.first-info-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+.second-info-box{
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+
+}
+
+.heading-text{
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.time{
+    color: gray;
+    font-weight: 700;
+    font-size: 14px;
+     margin-bottom: 0;
+}
+
+.text{
+    color: gray;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top:0;
+} 
+
+
+
+img{
+    height: 47px;
+    width: 48px;
+    border-radius: 23px;
+}
+
+.tutorial-info-container{
+    display: flex;
+    margin-top: 3px;
+}
+
+.profile-image{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile-texts{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+}
+
+.name{
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+.email{
+    color: gray;
+    font-weight: 500;
+    margin-left: 4px;
+    margin: 0;
+}
+
+.text{
+    width: 250px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.video-container{
+    display: flex;
+    border: 1px solid rgb(180, 173, 173);
+    border-radius: 12px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.profile-container{
+    display: inline-block;
+}
+
+.left-section{
+    background-color: rgb(180, 173, 173);
+    width: 120px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.youtube-info{
+    margin-left: 4px;
+}
+
+
+.site{
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.video-description{
+    margin-top: 0;
+}
